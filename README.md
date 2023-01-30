@@ -275,6 +275,113 @@ console.log (b);
 ----
 ----
 
+```js
+
+// AULA DE ALGORITIMOS:
+
+O QUE É ALGORITIMO? Uma Sequencia de passos, passo 1, passo 2
+exemplo: receita de bolo.
+
+TEM REPETIÇÕES! PODEMOS REPETIR SEQUENCIAS DE PASSOS.
+
+Também podemos realizar decisões
+
+A ordem dos passos é extremamente importante.
+Então os algoritimos são: temos entradas, processamento (algoritimo), e saída.
+
+- Mas não necessariamente precisa ter uma saída, pode ter somente entrada e processamento(algoritimo). 
+- Existe também codigos que só recebem Processamento(alogiritimos) e saída, sem a entrada. 
+- E também somente o Processamento (algoritimo).
+
+Como representar um algoritimo?
+- Através de Fluxograma.
+- Linguagem natual > português, inglês, alemão, espanhol.
+- Linguagem artificial > C#, Java, PHP, JS,GO, Python...
+- Pseudo Linguagem:
+        1 Algoritimo "SomaDoisValores" > 
+        2 Declare> 
+        3 Soma, a,b: Inteiro,
+        4  Escreva (digite dois números), 
+        5 Leia (a,b), 
+        6 soma< a+b>, 
+        7 Escreva(soma), 
+        8 fim
+
+---
+---
+
+// Aula de estrutura de Dados
+
+O que é Estrutura de Dados? É organizar e administrar meu codigo.
+ Estrutura de dados são: Listas, tabelas, estrutura de arvores.
+
+ Estruras de dados básicas: INT, REAL, LETRA, BOOL
+
+
+ //Variaveis e Constantes: Serve para rotular o valor de algum lugar do codigo. ex: area de um triangulo.. etc.
+ Operações: Atributos, aritimetico, Relacionais (de comparações), lógica.
+
+ Podemos criar estruturas personalizadas.
+
+Lembrem sempre de salvar o código antes de tentar executar o mesmo. Essa ação é necessária para que o código seja de fato executado.
+--- 
+aula caio:
+
+/* Exercício 0: Defina as diferenças entre VAR, LET e CONST com uma frase curta
+ * para cada*/
+/* VAR e LET = ambas são variaveis que armazenam dados, porém o VAR ao atribuir um valor e depois mudar esse valor é possível, já com let não é possível.. você teria que digitar novamente let e atribuir a outro valor desejavel.
+ * CONST = Uma variavel constante que não pode ser alterada*/
+/* Exercício 1: Crie uma variável com o nome "nome" utilizando a palavra-chave
+ * VAR e atribua seu nome completo como valor. Em seguida, imprima a variável 
+ * na tela.*/
+var nome= "thais"
+console.log(nome);
+/* Exercício 3: Crie uma constante com o nome "idade" utilizando a 
+ * palavra-chave CONST e atribua seu valor de idade. Em seguida, 
+ * tente alterar o valor da constante e imprima a constante na tela.*/
+const idade= 26
+console.log(idade); //não dá para alterar uma constante.
+/* Tipagem Fraca 
+ * Exercício 0: Dê um exemplo de como a tipagem fraca afeta a programação 
+ * em JavaScript*/
+/* RESP: Nomeclatura das variaveis, comentários desnecessários que fazem 
+ * poluição do código, realizar boas praticas*/
+// Exercício 0: Crie uma variável com o tipo Number e atribua um valor a ela
+number = 45;
+console.log(number);
+/* Exercício 1: Crie uma variável com o nome "idade" e atribua um valor 
+ * numérico. Em seguida, altere o valor da variável para uma string e imprima
+ * a variável na tela.*/
+var idade2= 26;
+console.log(idade2);
+idade2= "Minha idade é 26";
+console.log(idade2);
+/* Exercício 2: Crie uma variável com o nome "nome" e atribua uma string
+ * como valor. Em seguida, altere o valor da variável para um número e imprima 
+ * a variável na tela.*/
+var nome2= "Thais";
+console.log(nome2);
+var nome2= 26;
+console.log(nome2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
